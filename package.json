@@ -1,0 +1,31 @@
+{
+  "name": "vue-portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "gsap": "^3.14.2",
+    "vue": "^3.5.28"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.2",
+    "autoprefixer": "^10.4.24",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "vite": "^7.3.1"
+  },
+  "description": "This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.",
+  "main": "vite.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
