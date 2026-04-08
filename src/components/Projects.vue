@@ -120,13 +120,13 @@ function onTiltLeave(e) {
 // Replace these with your real projects next — keep 3–4 max on homepage
 const projects = [
   {
-  title: "Flappy Bird Clone",
+  title: "Flying Bird Game",
   type: "Game Development",
   description:
     "Developed a 2D Bird-style arcade game in Java featuring physics-based bird movement, real-time collision detection, procedural obstacle generation, and event-driven gameplay using Swing graphics.",
-  tech: ["Java", "Swing", "AWT", "Object-Oriented Programming", "Game Loop Architecture"],
-  demo: "",
-  code: "https://github.com/ammun99/Bird_Game",
+  tech: ["Java", "Vue 3", "Vite", "Object-Oriented Programming", "Game Loop Architecture"],
+  demo: "https://ammun99.github.io/bird-game-page/",
+  code: "https://github.com/ammun99/bird-game-page",
 },
 
   {
